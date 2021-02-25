@@ -19,7 +19,7 @@
           },
           "url": "https://github.com/nxcuong/hydra.github.io/blob/main/hydra-1.0.0.zip",
           "archiveFileName": "hydra-1.0.0.zip",
-          "checksum": "SHA-256:85FE245842A60B554046C0DBC7705A660DC9A5935EF1FE9EA10889F4EFE1BF81",
+          "checksum": "SHA-256:CE68F38695EB5E6EBDFD0AD1AF4CDAEB85818F5AC992C31B8C85EFAC22350375",
           "size": "574000",
           "boards": [
             { "name": "hydra50" }
