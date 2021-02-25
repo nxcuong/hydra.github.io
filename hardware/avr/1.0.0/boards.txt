@@ -1,0 +1,50 @@
+menu.cpu=Hydra Board
+##############################################################
+
+hydra50.name=Hydra50
+
+hydra50.vid.0=0x2341
+hydra50.pid.0=0x0010
+hydra50.vid.1=0x2341
+hydra50.pid.1=0x0042
+hydra50.vid.2=0x2A03
+hydra50.pid.2=0x0010
+hydra50.vid.3=0x2A03
+hydra50.pid.3=0x0042
+hydra50.vid.4=0x2341
+hydra50.pid.4=0x0210
+hydra50.vid.5=0x2341
+hydra50.pid.5=0x0242
+
+hydra50.upload.tool=avrdude
+hydra50.upload.maximum_data_size=8192
+hydra50.upload.protocol=wiring
+hydra50.upload.maximum_size=253952
+hydra50.upload.speed=115200
+
+hydra50.bootloader.tool=avrdude
+hydra50.bootloader.low_fuses=0xFF
+hydra50.bootloader.unlock_bits=0x3F
+hydra50.bootloader.lock_bits=0x0F
+hydra50.bootloader.high_fuses=0xD8
+hydra50.bootloader.extended_fuses=0xFD
+hydra50.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
+
+hydra50.build.f_cpu=16000000L
+hydra50.build.core=hydra
+hydra50.build.mcu=atmega2560
+hydra50.build.board=AVR_MEGA2560
+hydra50.build.usb_product="HydrAuno"
+
+
+## hydra50, 1st board
+## -------------------------
+hydra50.menu.cpu.hydra50 = Hydra 50
+hydra50.menu.cpu.hydra50.build.variant=hydra50
+
+
+
+
+
+
+
