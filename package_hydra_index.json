@@ -21,7 +21,7 @@
           "archiveFileName": "hydra-1.0.0.zip",
           "checksum": "SHA-256:CE68F38695EB5E6EBDFD0AD1AF4CDAEB85818F5AC992C31B8C85EFAC22350375",
                                
-          "size": "2543774",
+          "size": "629712",
           "boards": [
             { "name": "hydra50" }
             
